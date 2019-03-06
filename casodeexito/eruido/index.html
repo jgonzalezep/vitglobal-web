@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>VITGLOBAL.COM &mdash; Servicios de  Datacenter y Tecnología desde 1992</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="../../favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="../../css/animate.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="../../css/flexslider.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="../../css/icomoon.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="../../css/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="../../css/bootstrap.css">
+
+	<!-- 
+	Default Theme Style 
+	You can change the style.css (default color purple) to one of these styles
+	
+	
+
+	-->
+	<link rel="stylesheet" href="../../css/turquoise.css">
+
+	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
+	<link rel="stylesheet" id="theme-switch" href="../../css/turquoise.css">
+	<!-- End demo purposes only -->
+
+
+	<style>
+	/* For demo purpose only */
+
+	/*
+	GREEN
+	8dc63f
+	RED
+	FA5555
+	TURQUOISE
+	27E1CE
+	BLUE 
+	2772DB
+	ORANGE
+	FF7844
+	YELLOW
+	FCDA05
+	PINK
+	F64662
+	PURPLE
+	7045FF
+
+	*/
+	
+	/* For Demo Purposes Only ( You can delete this anytime :-) */
+	#colour-variations {
+		padding: 10px;
+		-webkit-transition: 0.5s;
+	  	-o-transition: 0.5s;
+	  	transition: 0.5s;
+		width: 140px;
+		position: fixed;
+		left: 0;
+		top: 100px;
+		z-index: 999999;
+		background: #fff;
+		/*border-radius: 4px;*/
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+	}
+	#colour-variations.sleep {
+		margin-left: -140px;
+	}
+	#colour-variations h3 {
+		text-align: center;;
+		font-size: 11px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #777;
+		margin: 0 0 10px 0;
+		padding: 0;;
+	}
+
+	#colour-variations ul,
+	#colour-variations ul li {
+		padding: 0;
+		margin: 0;
+	}
+	#colour-variations ul {
+		margin-bottom: 20px;
+		float: left;	
+	}
+	#colour-variations li {
+		list-style: none;
+		display: inline;
+	}
+	#colour-variations li a {
+		width: 20px;
+		height: 20px;
+		position: relative;
+		float: left;
+		margin: 5px;
+	}
+
+
+
+	#colour-variations li a[data-theme="style"] {
+		background: #8dc63f;
+	}
+	#colour-variations li a[data-theme="red"] {
+		background: #FA5555;
+	}
+	#colour-variations li a[data-theme="turquoise"] {
+		background: #27E1CE;
+	}
+	#colour-variations li a[data-theme="blue"] {
+		background: #2772DB;
+	}
+	#colour-variations li a[data-theme="orange"] {
+		background: #FF7844;
+	}
+	#colour-variations li a[data-theme="yellow"] {
+		background: #FCDA05;
+	}
+	#colour-variations li a[data-theme="pink"] {
+		background: #F64662;
+	}
+	#colour-variations li a[data-theme="purple"] {
+		background: #7045FF;
+	}
+
+	#colour-variations a[data-layout="boxed"],
+	#colour-variations a[data-layout="wide"] {
+		padding: 2px 0;
+		width: 48%;
+		border: 1px solid #ededed;
+		text-align: center;
+		color: #777;
+		display: block;
+	}
+	#colour-variations a[data-layout="boxed"]:hover,
+	#colour-variations a[data-layout="wide"]:hover {
+		border: 1px solid #777;
+	}
+	#colour-variations a[data-layout="boxed"] {
+		float: left;
+	}
+	#colour-variations a[data-layout="wide"] {
+		float: right;
+	}
+
+	.option-toggle {
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-top: 5px;
+		margin-right: -30px;
+		width: 30px;
+		height: 30px;
+		background: #8dc63f;
+		text-align: center;
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+		color: #fff;
+		cursor: pointer;
+		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
+	}
+	.option-toggle i {
+		top: 2px;
+		position: relative;
+	}
+	.option-toggle:hover, .option-toggle:focus, .option-toggle:active {
+		color:  #fff;
+		text-decoration: none;
+		outline: none;
+	}
+	</style>
+	<!-- End demo purposes only -->
+
+
+	<!-- Modernizr JS -->
+	<script src="../../js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+
+
+	<!-- 
+		INFO:
+		Add 'boxed' class to body element to make the layout as boxed style.
+		Example: 
+		<body class="boxed">	
+	-->
+	<body>
+	
+	<!-- Loader -->
+	<div class="fh5co-loader"></div>
+	
+	<div id="fh5co-page">
+		<section id="fh5co-header">
+			<div class="container">
+				<nav role="navigation">
+					<ul class="pull-left left-menu">
+						<li><a href="../../nosotros/">Nosotros</a></li>
+						<li><a href="../../productos/">Productos</a></li>
+						<li><a href="../../servicios/">Servicios</a></li>
+						<li><a href="../../soluciones/">Soluciones</a><li>
+						<li><a href="../../casodeexito/">Casos de Exito</a><li>
+						<li><a href="../../clientes/">Clientes</a><li>
+						<li><a href="../../soporte/">Soporte</a><li>
+						<li><a href="../../contacto/">Contacto</a><li>
+					</ul>
+					<h1 id="fh5co-logo"><a href="../../">V<span>!</span>T Global</a></h1>
+				</nav>
+			</div>
+		</section>
+        <!-- #fh5co-header -->
+
+		<section id="fh5co-hero" class="no-js-fullheight" style="background-image: url(../../images/hero_bg.jpg);" data-next="yes">
+			<div class="fh5co-overlay"></div>
+			<div class="container">
+				<div class="fh5co-intro no-js-fullheight">
+					<div class="fh5co-intro-text">
+						<!-- 
+							INFO:
+							Change the class to 'fh5co-right-position' or 'fh5co-center-position' to change the layout position
+							Example:
+							<div class="fh5co-right-position">
+						-->
+						<div class="fh5co-center-position">
+							<h2 class="animate-box">eRuido</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fh5co-learn-more animate-box">
+				<a href="#" class="scroll-btn">
+					<span class="text">Explora sobre Nosotros</span>
+					<span class="arrow"><i class="icon-chevron-down"></i></span>
+				</a>
+			</div>
+		</section>
+        <!-- END #fh5co-hero -->
+
+		<section id="fh5co-features">
+				<div class="container">
+					<div class="row text-center row-bottom-padded-md">
+						<div class="col-md-8 col-md-offset-2">
+							<figure class="fh5co-devices animate-box"><img src="../../images/img_devices.png" alt="Free HTML5 Bootstrap Template" class="img-responsive"></figure>
+							<h2 class="fh5co-lead animate-box">eRuido</h2>
+							<p class="fh5co-sub-lead animate-box">Equipos, servicio y soluciones de Monitoreo de Ruido Online.</p>
+							<p class="fh5co-sub-lead animate-box">ERuido es una plataforma de monitoreo continuo de Ruido Industrial/Ocupacional/Comunitario que cuenta con más de 25 años de uso y desarrollo.  En este tiempo  hemos podido entregar una solución a clientes con actividades destinadas al cumplimiento de normas mediante gestion, mitigación y otras medidas, destinadas a lograr una operación respetuosa del mediambiente y del entorno. Por ejemplo en Chile, ya se adapta al nuevo decreto DS38/2011 que fija nuevos lìmites al ruido comunitario y que impulsa a las empresas a realizar monitoreo y registro permanente de ruido en y en torno a sus instalaciones.</p>
+						</div>
+					</div>
+					<div class="row">				
+						<div class="col-md-6 col-md-push-6">
+								<figure class="fh5co-feature-image animate-box">
+										<img src="../../images/macbook.png" alt="Free HTML5 Bootstrap Template by FREEHTML5.co">
+								</figure>
+						</div>
+						
+						<div class="col-md-6 col-md-pull-6 animate-box">
+								<h2 class="text">Historia</h2>
+								<p>
+										la eRuido, o EMCR (Estacion de Monitoreo Continuo de Ruido) nacio como proyecto de Tesis en 1992 en el laboratorio de Microprocesadores del Instituto de Física de la Universidad Austral (Chile) y desde ese tiempo se ha desarrollado en función de las necesidades de empresas e Ingenieros Acústicos. eRuido ya ha sido considerada como herramienta válida de apoyo al control de emisiones de ruido por la autoridad, siendo aceptada como una herramienta para seguimiento de planes de cumplimiento, contando además con certificaciones según norma IEC61672 para calibración de medidores de niveles de presión sonora. Permanentemente buscamos la forma de adherirnos a los mejores estándares.
+								</p>
+								<p>
+										Hoy en diferentes empresas de Chile y Argentina mantenemos unidades operando con el software y hardware ERuido ,  el cual dispone información valiosa mediante servicios en la nube a usuarios de PC, Tablets y SmartPhones. 
+								</p>
+								<p>
+									eRuido es una alternativa que permite comenzar ahora la autogestión de emisiones sonoras, mediante la revision de los registros de niveles de presion sonora y la audicion y analisis de testimonios de audio asociados a los excesos medidos.
+								</p>
+								<p>
+										Esto es importante pues dado los avances en la legislacion de Ruido Comunitario y Ocupacional, es necesario contar con herramientas de autogestión de emisiones de Ruido, que permitan al Jefe de Operaciones, a la Gerencia, a  Ingenieros Acusticos y medioambientales,  asi como a expertos en experto en Prevencion,  conocer los niveles de Ruido en linea e historicos, y además contar con un sistema de registro de audios para poder identificar la fuente en cada evento sonoro bajo estudio.
+								</p>
+								<p>
+										​El uso de eRuido ha permitido a nuestros clientes correlacionar y optimizar su carga operacional en los diferentes horarios, priorizar las medidas de mitigacion y control, realizar analisis y estudios especificos a cada realidad entre otros beneficios de la plataforma.
+								</p>
+								<h2 class="text">Un sonómetro en la web</h2>
+								<p>
+										Desde 1996, hemos puesto los datos sonométricos de nuestros clientes en la web. Fuimos pioneros cuando los términos nube o IOT aún no se acuñaban, y esto nos ha dado gran prestigio y experiencia para abordar las problemáticas de metrología de ruido de nuestros clientes.
+
+								</p>	
+								<p>Desde 1996, hemos puesto los datos sonométricos de nuestros clientes en la web. Fuimos pioneros cuando los términos nube o IOT aún no se acuñaban, y esto nos ha dado gran prestigio y experiencia para abordar las problemáticas de metrología de ruido de nuestros clientes.
+									</p>								
+								<p>La interfaz de reportes de eRuido está basada en WEB, entregando incluido en el producto gran cantidad de reportes generalmente aceptados para la gestión de emisiones. Asimismo al ser una plataforma abierta, permite al cliente o integrador desarrollar libremente nuevas funcionalidades, con todo el apoyo de nuestro experimentado equipo de ingenieros. 
+									</p>
+								<h2 class="text">Manejo del instrumental</h2> 
+								<p>Nuestra solución es sin duda la más completa y simple de operar. Nuestros dispositivos sensores basados principalmente en CPU con sistemas Windows permite a cualquier operador manejar las funciones básicas y resolver problemas, con una curva de aprendizaje de menos de 4 horas. Además tenemos una gama de CPUs para todas las aplicaciones, haciendo altamente eficiente en costos el hardware, ya que Ud. podrá iniciar su monitoreo incluso con un PC en desuso, ya que nuestra soluciíon al ser modular le permite adquirir sólo aquellas partes que requiere para completar su instalación.
+									</p>
+								<h2 class="text">Big Data</h2> 								
+								<p>Nuestros 25 años añios de experiencia en sensores, aplicaciones web  y procesamienbto de datos, nos han permitido diseñar un sistema altamente eficiente y efectivo. Es así como cada unidad de monitoreo puede almacenar años de información sin sobrecarga, asimismo siempre podrá replicar sus sensores en servidores centralizados para contar con redundancia, resiliencia y acceso directo a datos segundo a segundo por años. 
+										Los datos se almacenan en formatos abiertos y los clientes tienen acceso a ciertos códigos que les permiten personalizar la plataforma de ser necesario. No quede dominado por su proveedor tecnológico. Nuestro trabajo es proporcionar la mejor plataforma y libertad de análisis y desarrollo.</p>
+								<h2 class="text">Seguridad de la información</h2> 															
+								<p>Nuestra plataforma firma cada registro con tecnología de encriptación tipo Block Chain. Esto le permite procesar los datos o encargar análisis a terceros con la tranquilidad que siempre podrá validar que éstos no han sido alterados. Somos la primera empresa en ofrecer datos firmados electrónicamente segundo a segundo.
+										Y nuestros registros y patentes se encuentran en trámite.</p>
+								<h2 class="text">Trazabilidad</h2> 																
+								<p>Todos nuestros equipos han sido validados mediante normas internacionales. En especial  IEC61672 para procedimientos de calibración de instrumental sonométrico. Es decir nuestras medidas de calibración son trazables hasta patrones NIST o equivalentes. Proveemos un certificado de conformidad de fábrica con cada equipo y si es necesario podemos gestionar la acreditación ante las autoridades de su país.
+									</p>
+								<h2 class="text">Precisión</h2> 															
+								<p>Nuestra precisión medida utilizando micrófonos standard Tipo II es de 0.16 dB</p>
+								<h2 class="text">Registros estándar entregados por eRuido</h2> 															
+								<p>Nivel de Presion Sonora A / C  Lento 1 segundo 
+
+										Nivel de Presion Sonora Equivalente 60 segundos (LAeq60, Leq60),
+										
+										Nivel de Presion Sonora Equivalente 300 segundos (Leq300) 
+										
+										Nivel de Presion Sonora  Equivalente 180 segundos (Leq180)
+										
+										 
+										
+										LeqDiario, LeqDiurno,LeqNocturno (LDen)
+										
+										Ln Percentiles,
+										
+										Leq3600, Leq Hora
+										
+										Entre otros.</p>
+								<h2 class="text">Gráficos</h2> 																							
+								<p>  Lq Online
+
+										Lq60, Leq300, Leq180 D38, Leq Hora
+									  
+										Marcadores de Audio
+									  
+										Ln (n = 1 hasta 99)</p>
+								<h2 class="text">Gestion de ruido</h2> 																							
+								<p>eRuido captura eficientemente audios directo desde el micrófono de medición, basándose en umbrales predefinidos. Esta característica la incluimos desde la primera version eRuido 1.0 (c) 1996, y fuimos el primer fabricante de equipos de medición acústica en intergrar esto como parte de la data generada por el sistema.</p>	
+								<h2 class="text"> Análisis y categorización de alertas</h2> 																							
+								<p>En instalaciones con múltiples nodos, proveemos módulo de  Comparación y correlación de N unidades de monitoreo.</p>	
+								<h2 class="text">Interfaz de Usuario</h2> 																							
+								<p>eRuido presenta los datos de manera amigable y compatible con los navegadores de web y reproductores de audio màs populares. Además todos los gráficos se pueden exportar a Excel.
+
+ 
+
+										Todo el audio se captura en calidad de CD o superior para revisiòn posterior. (48KHz)
+										
+										 
+										
+										No basta con saber cuánto nivel se registró, ahora puede oir el evento que provoca un no cumplimiento y catalogar en pocos minutos los eventos sonoros, pudiendo invertor su tiempo en medidas de gestión, mitigación o control con total conocimiento de sus fuentes.</p>
+								<h2 class="text">Capacidad</h2> 																							
+								<p>Una eRuido puede mantener en lìnea entre seis meses y 5 años de datos incluidos audios, dependiendo de la configuración seleccionada. Mediante la aplicación de un servidor auxiliar la historia de ruido puede preservarse virtualmente sin límites.
+										El software sonométrico "dBA Monitor" es el mismo en todas las versiones, se incluye un año de actualizaciones sin costo. Por lo que su inversión siempre estará protegida.
+										Más información y descargas de software www.eruido.org
+										
+										 </p>								
+							
+						</div>
+					</div>
+				</div>
+			</section>	
+	
+			<!-- END #fh5co-features -->
+	
+	
+			
+		<div id="fh5co-info">
+				<div class="container">
+					<div class="row text-center row-bottom-padded-md">
+						<div class="col-md-8 col-md-offset-2">
+							<h2 class="fh5co-lead animate-box">Informacióin de contacto:</h2>
+							<p class="fh5co-sub-lead animate-box">Chile:  www.vitglobal.com / 562-223644324</p>
+							<p class="fh5co-sub-lead animate-box"> Argentina: www.hydroner.com.ar</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<section id="fh5co-subscribe">
+				<div class="container">
+			
+					<h3 class="animate-box"><label for="email">Subscribe to our newsletter</label></h3>
+					<form action="#" method="post" class="animate-box">
+						<i class="fh5co-icon icon-paper-plane"></i>
+						<input type="email" class="form-control" placeholder="Enter your email" id="email" name="email">
+						<input type="submit" value="Send" class="btn btn-primary">
+					</form>
+	
+				</div>
+			</section>
+			<!-- END #fh5co-subscribe -->
+	
+		<footer id="fh5co-footer">
+			<div class="container">
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
+						<div class="fh5co-footer-widget">
+							<h3>Links</h3>
+							<ul class="fh5co-links">
+								<li><a href="../../nosotros/">Nosotros</a></li>
+								<li><a href="../../productos/">Productos</a></li>
+								<li><a href="../../servicios/">Servicios</a></li>
+								<li><a href="../../soluciones/">Soluciones</a><li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
+						<div class="fh5co-footer-widget">
+							<h3></h3>
+							<ul class="fh5co-links">
+								<li><a href="../../casodeexito/">Casos de Exito</a><li>
+								<li><a href="../../clientes/">Clientes</a><li>
+								<li><a href="../../soporte/">Soporte</a><li>
+								<li><a href="../../contacto/">Contacto</a><li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
+						<div class="fh5co-footer-widget">
+							<h3>Contacto</h3>
+							<p>
+								<a href="mailto:vitglobal@gmail.com">vitglobal@gmail.com</a> <br>
+								Isidora Goyenechea 3000 Piso 24,<br>
+								Las Condes / Santiago Chile <br>
+								<a href="tel:+56223644324">T: 562-2364-4324</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
+						<div class="fh5co-footer-widget">
+							<h3>Siguenos</h3>
+							<ul class="fh5co-social">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-google-plus"></i></a></li>
+								<li><a href="#"><i class="icon-instagram"></i></a></li>
+								<li><a href="#"><i class="icon-youtube-play"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				
+			</div>
+			<div class="fh5co-copyright animate-box">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="fh5co-left"><small>&copy;1992 - 2019 / <a href="/">Vitglobal.com</a>.</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- END #fh5co-footer -->
+	</div>
+	<!-- END #fh5co-page -->
+		
+	<!-- jQuery -->
+	<script src="../../js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="../../js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="../../js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="../../js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="../../js/jquery.flexslider-min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="../../js/jquery.magnific-popup.min.js"></script>
+	<script src="../../js/magnific-popup-options.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="../../js/main.js"></script>
+
+	<!-- 
+	INFO:
+	jQuery Cookie for Demo Purposes Only. 
+	The code below is to toggle the layout to boxed or wide 
+	-->
+	<script src="../../js/jquery.cookie.js"></script>
+	<script>
+		$(function(){
+
+			if ( $.cookie('layoutCookie') != '' ) {
+				$('body').addClass($.cookie('layoutCookie'));
+			}
+
+			$('a[data-layout="boxed"]').click(function(event){
+				event.preventDefault();
+				$.cookie('layoutCookie', 'boxed', { expires: 7, path: '/'});
+				$('body').addClass($.cookie('layoutCookie')); // the value is boxed.
+			});
+
+			$('a[data-layout="wide"]').click(function(event){
+				event.preventDefault();
+				$('body').removeClass($.cookie('layoutCookie')); // the value is boxed.
+				$.removeCookie('layoutCookie', { path: '/' }); // remove the value of our cookie 'layoutCookie'
+			});
+		});
+	</script>
+	
+
+	</body>
+</html>
+
